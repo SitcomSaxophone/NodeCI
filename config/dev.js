@@ -4,5 +4,6 @@ module.exports = {
   googleClientSecret: 'KnH-rZC23z4fr2CN4ISK4srN',
   mongoURI: 'mongodb://SatanicPanic:NukemHigh666@ds143683.mlab.com:43683/blogster_dev',
   cookieKey: '123123123',
-  redisUrl: 'redis://127.0.0.1:6379'
+  redisUrl: 'redis://127.0.0.1:6379',
+  
 };
