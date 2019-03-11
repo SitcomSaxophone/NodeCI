@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "jest": {
-    "setupTestFrameworkScriptFile": "./tests/setup.js"
+    "setupFilesAfterEnv": [
+      "./tests/setup.js"
+    ]
   },
   "scripts": {
     "start": "node index.js",
@@ -18,20 +20,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.188.0",
+    "aws-sdk": "^2.416.0",
     "body-parser": "^1.17.2",
     "concurrently": "^3.5.0",
     "cookie-session": "^2.0.0-beta.2",
     "express": "^4.15.3",
-    "jest": "^22.1.4",
+    "jest": "^24.3.1",
     "migrate-mongoose": "^3.2.2",
-    "mongoose": "^4.11.1",
-    "nodemon": "^1.11.0",
+    "mongoose": "^4.13.18",
+    "nodemon": "^1.18.10",
     "passport": "^0.3.2",
     "passport-google-oauth20": "^1.0.0",
     "path-parser": "^2.0.2",
     "puppeteer": "^1.0.0",
     "redis": "^2.8.0",
-    "uuid": "^3.2.1"
+    "uuid": "^3.3.2"
   }
 }
